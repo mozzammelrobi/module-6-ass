@@ -1,5 +1,45 @@
-p{
-    font-size: 50px;
-    color: tomato;
-    font-weight: bold;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+.merriweather-black {
+    font-family: "Merriweather", serif;
+    /* font-weight: 900; */
+    font-style: normal;
+  }
+
+  .inter-normal {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .body{
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+
+  .header{
+    min-height: 600px;
+    /* background: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/images/Banner-Image.png"); */
+    background: linear-gradient(180.00deg, rgb(7,2,17), rgba(7, 2, 17, 0)100%), url('/images/Banner-Image.png');
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 120px;
+  }
+   
+  .header p {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+  .header h1 {
+    font-size: 72px;
+    width: 632px;
+    font-weight: 900;
+    margin: 0 auto;
+  }
+ 
