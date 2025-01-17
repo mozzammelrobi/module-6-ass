@@ -173,3 +173,44 @@
   max-width: 276px
 ;
 }
+
+/* holy day sales section */
+.holy-day-section{
+  margin-bottom: 120px;
+}
+.text-container h1{
+  font-size: 72px;
+  font-weight: 900;
+  color: #FF0000;
+  margin-top: 16px;
+  margin-bottom: 28px;
+  text-align: center;
+}
+.funtion{
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+  margin-bottom: 0;
+  text-align: center;
+}
+.funtion-des{
+  font-weight: 20px;
+  font-weight: 500;
+  color: #07021199;
+  text-align: center;
+  /* margin-bottom: 60px; */
+
+}
+
+
+.img-magic{
+  position: relative;
+  top: 250px;
+}
+.img-discount{
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+}
+.img-rec{
+}
